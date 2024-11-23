@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #d9dcd6;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1%;
+    background-color: #35415E;
+    color: #fff
+}
+
+h1{
+    font-size: 200%;
+    color: #0c1318;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+/* About Me, Work, Contact Me, Resume in header */
+header{
+    padding-top: 15px;
+    float: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    position: relative;
+    display: inline-block;
+    top: 25px;
+}
+
+.header{
+    position: relative;
+    right: 10px;
+    padding: 5px;
+    text-decoration: underline #5bf8fe;
+}
+
+a{
+    color: #58f8fe;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: underline #5bf8fe;
+    text-shadow: none;
+
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
